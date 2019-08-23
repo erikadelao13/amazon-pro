@@ -1,0 +1,91 @@
+.doubleLine {
+    line-height: 0.5;
+    text-align: center;
+  }
+  .doubleLine span {
+    display: inline-block;
+    position: relative;  
+  }
+  .doubleLine span:before,
+  .doubleLine span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid #DCDCDC;
+    top: 0;
+    width: 131px;
+  }
+  .doubleLine span:before {
+    right: 100%;
+    margin-right: 15px;
+  }
+  .doubleLine span:after {
+    left: 100%;
+    margin-left: 15px;
+  }
+  #inputDesign {
+    border-radius: 8px;
+    padding: 20px; 
+    width: 700px;
+    height: 30px;    
+}
+
+.input-with-icon {
+    /* causes absolute icon div to be positioned correctly */
+    position: relative;
+    width: 700px;
+    height: 3.2rem;
+    box-sizing: border-box;
+  }
+  
+  .input-with-icon .form-control {
+      border-radius: 8px;
+      height: 100%;
+      width: 100%;
+      padding-right: 3.65rem;
+      box-sizing: border-box;
+  }
+  
+  .input-with-icon .icon {
+    position: absolute;
+    
+    /* These are set relative to the height of the input box to bound the box neatly inside. This is aesthetic to me but you may change the dimensions of course. */
+    right: 0.3rem;
+    top: 0.3rem;
+    width: 2.8rem;
+    height: 2.6rem;
+    border-radius: 0.3rem;
+    
+    /* content in the icon div is centered, without bootstrap or font-awesome you may wish to add your own text in the span */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  /* 
+   BELOW PROPERTIES AREN'T CRITICAL FOR DESIRED BEHAVIOUR.
+   THEY ARE PURELY FOR DEMONSTRATION PURPOSES
+  */
+  .input-with-icon {
+    margin: 0.8rem;
+  }
+  
+  .input-with-icon .form-control {
+    padding-left: 1.2rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
+  .searchButton{
+      height: 50px;
+      width: 50px;
+      background-color: #FCBC70;
+  }
+  .vertical-line {
+    border-right: 1px solid #C0C0C0;
+    height: 900px;
+  }
+  .horizontal-line {
+    border-bottom: 1px solid #C0C0C0;
+    width: 230px;
+  }  

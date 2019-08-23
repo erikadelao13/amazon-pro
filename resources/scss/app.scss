@@ -1,0 +1,13 @@
+@import '~tailwindcss/base';
+@import '~tailwindcss/components';
+@import '~tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+.gradientYellow {
+    background: linear-gradient(360deg, #EFC25C 9.31%, #F8E7C1 100%);
+}
+
+.gradientGrey {
+    background: linear-gradient(360deg, #ECECEC 9.31%, #F9F9F9 100%);    
+}
