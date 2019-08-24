@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Amazon | Detail Product</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/bdb7a5d626.js"></script>
+</head>
+<body>
+    <!-- Header section -->
+    <section>
+        <div class="bg-header">
+        <header class="container m-auto"> 
+            <!-- First Row -->
+            <div class="flex items-center justify-between">
+            <div>
+                <a href="./home.html"><img src="./img/amazon.png" width="226px" alt=""></a>
+            </div>
+            <div class="flex flex-row items-center overflow-hidden rounded-lg h-full w-full max-w-2xl">
+                <select class="h-10 py-2 px-4 bg-white appearance-none" name="" id="">
+                    <option value="">Todos</option>
+                    <option value="">Otros</option>
+                </select>
+                <input class="h-10 w-full pl-4" type="text" placeholder="Search">
+                <button class="bg-button h-10 py-2 px-4 text-gray-600"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="">
+                <p class="text-sm font-bold text-white">Servicio al Cliente 24/7. Más información</p>
+            </div>
+            </div>
+            <!-- Second Row -->
+            <div class="flex items-center justify-between py-4">
+            <div class="flex items-center px-10">
+                <i class="fas fa-map-marker-alt text-white text-3xl"></i>
+                <div class="pl-2">
+                <p class="font-regular text-white text-sm">Enviar a</>
+                <p class="font-bold text-white">El Salvador</p>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="flex items-center">
+                    <select class="bg-transparent text-white font-bold appearance-none" name="" id="">
+                        <option value="">Departamentos</option>
+                        <option value="">Otros</option>
+                    </select>
+                    <i class="fas fa-chevron-down text-xs ml-1 text-white"></i>
+                </div>
+                <ul class="flex text-white font-regular">
+                <li class="px-2"><a href="#"> Ofertas del día </a></li>
+                <li class="px-2"><a href="#"> Tu amazon.com </a> </li>
+                <li class="px-2"><a href="#"> Tarjetas de Regalo</a></li>
+                <li class="px-2"><a href="#"> Ayuda</a></li>
+                <li class="px-2"><a href="#"> Listas</a></li>
+                <li class="px-2"><a href="#"> Vender</a></li>
+                </ul>
+            </div>
+            <div class="flex items-center">
+                <div class="">
+                <p class="text-white text-sm pl-1">Hola, Identífícate</p>
+                <a href="./login.html" class="">
+                    <select class="bg-transparent text-white font-bold appearance-none" name="" id="">
+                        <option value="" class="border-none">Cuenta y Listas</option>
+                    </select>
+                    <i class="fas fa-chevron-down text-xs ml-1 text-white"></i>
+                </a>
+                </div>
+                <p class="text-white font-bold px-2">Pedidos</p>
+                <div class="flex p-2 items-center">
+                <i class="fas fa-shopping-cart text-white pr-2"></i>
+                <p class="text-white font-bold">Carrito</p>
+                </div>
+            </div>
+            </div>
+        </header>
+        </div>
+    </section>
+
+    <!-- Section Product detail -->
+    <section class="">
+        <div class="container m-auto flex pt-6">
+            <div class="w-3/12 p-6">
+                <img src="./img/product-detail.jpg" alt="">
+                <p class="pt-10 text-gray-500 text-xs text-center">Pasa el mouse sobre la imagen para aplicar zoom</p>
+            </div>
+
+            <div class="w-6/12 p-6">
+                <p class="font-medium text-xl">Juego de sábana de cama Mellanni, microfibra cepillada de alta calidad, impreso, bolsillo profundo, antiarrugas, resistente al desgaste y a las manchas, hipoalergénico, 4 piezas, Microfibra, Celeste (Baby Blue), gemelo</p>
+                <p class="py-2">de <a href="#" class="color-link">Mellanni</a></p>
+                <div class="flex flex-no-wrap items-center justify-between">
+                    <div class="flex items-center">
+                        <i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-chevron-down text-xs ml-1"></i>
+                    </div>
+                    <p><a href="#" class="color-link">55,998 opiniones de clientes</a> | <a href="#" class="color-link">más de 1000+ preguntas respondidas</a></p>
+                </div>
+                <hr class="my-4">
+                <p class="font-medium"><span class="text-green-400">Disponible a través</span> de <a href="#" class="color-link">estos vendedores</a>.</p>
+                <div class="py-4">
+                    <p class="text-xs text-gray-600">Tamaño: <span class="font-bold text-sm">Twin</span></p>
+                    <ul class="flex p-2">
+                        <li class="border-2 py-1 px-3 mr-2">Twin</li>
+                        <li class="border-2 py-1 px-3 mr-2">Twin XL</li>
+                        <li class="border-2 py-1 px-3 mr-2">Full</li>
+                        <li class="border-2 py-1 px-3 mr-2">Queen</li>
+                        <li class="border-2 py-1 px-3 mr-2">King</li>
+                        <li class="border-2 py-1 px-3 mr-2">California King</li>
+                    </ul>
+                </div>
+                <div class="">
+                    <p class="text-xs text-gray-600">Color: <span class="font-bold text-sm">Blue Hydrangea</span></p>
+                    <div class="flex">
+                        <img src="./img/color4.jpg" alt="" class="p-2">
+                        <img src="./img/color2.jpg" alt="" class="p-2">
+                        <img src="./img/color3.jpg" alt="" class="p-2">
+                        <img src="./img/color1.jpg" alt="" class="p-2">
+                    </div>
+                </div>
+                <ul class="text-xs list-disc list-outside pl-4">
+                    <li>
+                        100 % poliéster
+                    </li>
+                    <li>
+                        Importado
+                    </li>
+                    <li>
+                        Siente la diferencia, duerme mejor y despierta cada mañana sintiéndote renovado y lleno de energía. Sedoso suave, más cómodo y hojas de cama de lujo que puedes encontrar. Lo mejor para cualquier habitación de tu casa, habitación, habitación de huéspedes, sala de niños, RV, casa de día festivo. Idea de regalo para hombres y mujeres, madres y padres día del padre, de San Valentín y la Navidad.
+                    </li>
+                    <li>
+                        Tamaño Queen, juego de cama de 4 piezas, 1 sábana lisa de 102 x 90 pulgadas, 1 sábana bajera de 80 x 60 pulgadas, 2 fundas de almohada de 20 x 30 pulgadas. Sábana ajustable con bolsillo profundo con elástico alrededor (no sólo las esquinas, como otras sábanas). Se adapta a colchones de hasta 16 pulgadas.
+                    </li>
+                    <li>
+                        Fácil cuidado, resistente a manchas, la decoloración, resistente a las arrugas. Lavable a máquina en frío. Se seca rápido en secadora baja. Más duradero que el algodón. Hipoalergénico y resistente a los ácaros del polvo.
+                    </li>
+                    <li>
+                        Más alta calidad: hecho de los materiales de la más alta calidad y mano de obra, por eso sabes lo que dura. La fabulosa selección de colores hará que tu habitación parezca sacada de una revista.
+                    </li>
+                    <li>
+                        - -
+                    </li>
+                </ul>
+
+                <p class="font-medium color-link text-base py-4">Comparar con artículos similares</p>
+            </div>
+
+            <div class="w-3/12">
+                <div class="border-2 rounded">
+                    <div class="p-6">
+                        <div class="">
+                            <input class="bg-white" type="radio" id="huey" name="drone" value="huey"
+                                checked>
+                            <label for="huey" class="font-bold" >Nuevo:</label>
+                        </div>
+                        <p class="py-4">Este artículo no se envía a <span class="font-bold">San Salvador, El Salvador</span>. Verifica otros vendedores que puedan hacer envios internacionales. <span class="color-link">Más información</span></p>
+                        <p class="text-green-400 font-medium">Disponible</p>
+                        <div class="inline-block relative w-32 py-4">
+                            <select class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-1 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
+                                <option>Cantidad: 1</option>
+                                <option>Option 2</option>
+                                <option>Option 3</option>
+                            </select>
+                            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                            </div>
+                        </div>
+                        <button class="py-2 px-6 rounded bg-button-yellow w-full font-bold mb-2">Realizar Pago</button>
+                        <button class="py-2 px-6 rounded bg-button-orange w-full font-bold mb-4">Compra ahora</button>
+                        <p class="py-2">Vendido y enviado por Amazon.com</p>
+                        <p class="">Se puede envolver para regalo.</p>
+                        <hr>
+                        <div class="flex items-center py-2">
+                            <i class="fas fa-map-marker-alt text-3xl"></i>
+                            <p class="color-link pl-2">Enviar a Luis - San Salvador 1101</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-300 p-4">
+                        <div class="flex justify-between">
+                            <div class="">
+                                <input class="bg-white" type="radio" id="huey" name="drone" value="huey">
+                                <label for="huey" class="font-bold" >Nuevo:</label>
+                            </div>
+                            <p>US$ 5.50</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="inline-block relative w-full py-6">
+                    <select class="block appearance-none w-full bg-select border border-gray-400 hover:border-gray-500 px-6 py-4 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline font-bold">
+                        <option>Agregar a la lista</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                    </select>
+                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                        <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Section Product detail -->
+
+    <hr>
+
+    <section class="container m-auto pb-8">
+        <div>
+            <p class="font-bold text-2xl p-4 text-red-500">Customers recommend</p>
+        </div>
+
+        <div class="flex">
+            <div class="border-2 p-4 w-64 rounded mr-4">
+                <div class="flex justify-center">
+                    <img src="./img/toalla.jpg" alt="">
+                </div>
+                <p class="color-link font-bold text-sm">Juego de sábana de cama Mellanni, microfibra cepillada de alta calida...</p>
+                <p class="text-xs py-4">by Mellanni</p>
+                <div class="font-bold">
+                    <span class="inline-block align-top text-xs">USD</span><span class="text-xl">24</span><span class="inline-block align-top text-xs">70</span> - 
+                    <span class="inline-block align-top text-xs">USD</span><span class="text-xl">52</span><span class="inline-block align-top text-xs">90</span>
+                </div>
+                <div class="flex items-center py-4">
+                    <i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i>
+                    <p class="color-link pl-6 font-medium">55,998</p>
+                </div>
+                <p class="text-xs text-gray-700 font-bold">“Great quallity linen. Very satisfied.” - Amazon Customer</p>
+            </div>
+
+            <div class="border-2 p-4 w-64 rounded mr-4">
+                <div class="flex justify-center">
+                    <img src="./img/toalla.jpg" alt="">
+                </div>
+                <p class="color-link font-bold text-sm">Juego de sábana de cama Mellanni, microfibra cepillada de alta calida...</p>
+                <p class="text-xs py-4">by Mellanni</p>
+                <div class="font-bold">
+                    <span class="inline-block align-top text-xs">USD</span><span class="text-xl">24</span><span class="inline-block align-top text-xs">70</span> - 
+                    <span class="inline-block align-top text-xs">USD</span><span class="text-xl">52</span><span class="inline-block align-top text-xs">90</span>
+                </div>
+                <div class="flex items-center py-4">
+                    <i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i>
+                    <p class="color-link pl-6 font-medium">55,998</p>
+                </div>
+                <p class="text-xs text-gray-700 font-bold">“Great quallity linen. Very satisfied.” - Amazon Customer</p>
+            </div>
+
+            <div class="border-2 p-4 w-64 rounded mr-4">
+                <div class="flex justify-center">
+                    <img src="./img/toalla.jpg" alt="">
+                </div>
+                <p class="color-link font-bold text-sm">Juego de sábana de cama Mellanni, microfibra cepillada de alta calida...</p>
+                <p class="text-xs py-4">by Mellanni</p>
+                <div class="font-bold">
+                    <span class="inline-block align-top text-xs">USD</span><span class="text-xl">24</span><span class="inline-block align-top text-xs">70</span> - 
+                    <span class="inline-block align-top text-xs">USD</span><span class="text-xl">52</span><span class="inline-block align-top text-xs">90</span>
+                </div>
+                <div class="flex items-center py-4">
+                    <i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i>
+                    <p class="color-link pl-6 font-medium">55,998</p>
+                </div>
+                <p class="text-xs text-gray-700 font-bold">“Great quallity linen. Very satisfied.” - Amazon Customer</p>
+            </div>
+
+            <div class="border-2 p-4 w-64 rounded mr-4">
+                <div class="flex justify-center">
+                    <img src="./img/toalla.jpg" alt="">
+                </div>
+                <p class="color-link font-bold text-sm">Juego de sábana de cama Mellanni, microfibra cepillada de alta calida...</p>
+                <p class="text-xs py-4">by Mellanni</p>
+                <div class="font-bold">
+                    <span class="inline-block align-top text-xs">USD</span><span class="text-xl">24</span><span class="inline-block align-top text-xs">70</span> - 
+                    <span class="inline-block align-top text-xs">USD</span><span class="text-xl">52</span><span class="inline-block align-top text-xs">90</span>
+                </div>
+                <div class="flex items-center py-4">
+                    <i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i>
+                    <p class="color-link pl-6 font-medium">55,998</p>
+                </div>
+                <p class="text-xs text-gray-700 font-bold">“Great quallity linen. Very satisfied.” - Amazon Customer</p>
+            </div>
+
+            <div class="border-2 p-4 w-64 rounded mr-4">
+                <div class="flex justify-center">
+                    <img src="./img/toalla.jpg" alt="">
+                </div>
+                <p class="color-link font-bold text-sm">Juego de sábana de cama Mellanni, microfibra cepillada de alta calida...</p>
+                <p class="text-xs py-4">by Mellanni</p>
+                <div class="font-bold">
+                    <span class="inline-block align-top text-xs">USD</span><span class="text-xl">24</span><span class="inline-block align-top text-xs">70</span> - 
+                    <span class="inline-block align-top text-xs">USD</span><span class="text-xl">52</span><span class="inline-block align-top text-xs">90</span>
+                </div>
+                <div class="flex items-center py-4">
+                    <i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i>
+                    <p class="color-link pl-6 font-medium">55,998</p>
+                </div>
+                <p class="text-xs text-gray-700 font-bold">“Great quallity linen. Very satisfied.” - Amazon Customer</p>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="container m-auto pb-8">
+        <div>
+            <p class="font-bold text-2xl py-4 text-red-500">Descripción del producto</p>
+        </div>
+        <p class="text-gray-500 py-4">Tamaño: Twin   |   Color: Baby Blue</p>
+        <p class="text-xs">
+            Juego de sábanas impreso. 100 % de microfibra cepillada de la más alta calidad. <br> <br>
+
+            Deja que la fina ropa de cama Mellanni te envuelva en elegancia, lujo y confort.
+            El juego de ropa de cama entallado con un diseño cuadrifolio.
+            Cuidadosamente elaborado para añadir una exquisita clase a tu recámara y mejorar la decoración. <br> <br>
+            
+            Entendemos que tu tiempo es importante, esa es la razón por la cual esta excepcionalmente suave y fuerte ropa de cama
+            Es antiarrugas, resistente al desgaste y a las manchas, para que puedas pasar más tiempo en las cosas importantes de la vida.
+            Es el ajuste perfecto con cuidado fácil, todo en uno. <br> <br>
+            
+            Sábanas de microfibra hipoalergénica, mantiene a las narices tapadas lejos, mientras bloquea alérgenos no deseados, ácaros del polvo y la humedad.
+            Deja que tu cuerpo respire mientras te mantienes fresco y cómodo toda la noche. <br>
+            
+            - <br>
+            - <br>
+            
+            Desplázate hacia arriba y haz clic en añadir al carrito para tu mejor sueño.
+        </p>
+    </section>
+
+    <hr>
+
+    <section class="container m-auto pb-8">
+        <div>
+            <p class="font-bold text-2xl py-4 text-red-500">Información del producto</p>
+        </div>
+        <p class="py-4">Tamaño: Twin   |   Color: Baby Blue</p>
+
+        <div class="w-full flex">
+            <div class="w-7/12 p-8">
+                <div class="table w-full">
+                    <div class="table-row">
+                        <div class="table-cell bg-gray-400 p-3 border">
+                            Dimensiones del paquete
+                        </div>
+                        <div class="table-cell p-3 border">
+                            11 x 9.6 x 3 pulgadas
+                        </div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell bg-gray-400 p-3 border">
+                            Peso del producto
+                        </div>
+                        <div class="table-cell p-3 border">
+                            1.85 pounds
+                        </div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell bg-gray-400 p-3 border">
+                            Peso del envío
+                        </div>
+                        <div class="table-cell p-3 border">
+                            2.35 pounds
+                        </div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell bg-gray-400 p-3 border">
+                            Fabricante
+                        </div>
+                        <div class="table-cell p-3 border">
+                            Mellanni
+                        </div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell bg-gray-400 p-3 border">
+                            ASIN
+                        </div>
+                        <div class="table-cell p-3 border">
+                            B00O35D38Y
+                        </div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell bg-gray-400 p-3 border">
+                            Número de modelo del producto
+                        </div>
+                        <div class="table-cell p-3 border">
+                            SYNCHKG053477
+                        </div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell bg-gray-400 p-3 border">
+                            Opinión media de los clientes
+                        </div>
+                        <div class="table-cell p-3 border">
+                            4.4 de un máximo de 5 estrelas
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-5/12 p-8">
+                <div class="">
+                    <p class="font-bold">Garantía y asistencia</p>
+                    <hr>
+                    <p><span class="font-bold">Garantía del producto:</span> Para obtener la información sobre la garantía de este producto, <span class="font-bold">Product Warranty:</span> For wararanty information about this product, please <span class="color-link font-medium">haz clic aquí</span></p>
+                </div>
+
+                <div class="py-10">
+                    <p class="font-bold">Comentarios</p>
+                    <hr>
+                    <p>Si vendes este producto, ¿Te <span class="color-link font-medium">gustaría sugerir actualizaciones mediante el soporte al vendedor</span>? ¿Quieres <span class="color-link font-medium">informarnos sobre un precio más abajo</span>?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- footer -->
+    <section class="bg-footer">
+        <div class="bg-go-top flex justify-center">
+          <a href="" class="py-4 text-white text-center font-medium">Inicio de página</a>
+        </div>
+    
+        <div class="flex py-10 container m-auto pl-6">
+          <div class="flex w-1/4 flex-col ml-6">
+            <p class="text-white font-bold text-xl">Conócenos</p>
+            <a class="font-regular text-white" href="#">Trabaja en Amazon</a>
+            <a class="font-regular text-white" href="#">Blog</a>
+            <a class="font-regular text-white" href="#">Acerca de Amazon</a>
+            <a class="font-regular text-white" href="#">Relaciones con los inversionistas</a>
+            <a class="font-regular text-white" href="#">Dispositivos Amazon</a>
+            <a class="font-regular text-white" href="#">Visita un centro logístico de Amazon</a>
+          </div>
+    
+          <div class="flex w-1/4 flex-col ml-6">
+            <p class="text-white font-bold text-xl">Gana dinero con nosotros</p>
+            <a class="font-regular text-white" href="#">Vende en Amazon</a>
+            <a class="font-regular text-white" href="#">Vende tus servicios en Amazon</a>
+            <a class="font-regular text-white" href="#">Vende en Amaon Business</a>
+            <a class="font-regular text-white" href="#">Vende tus Apps en Amazon</a>
+            <a class="font-regular text-white" href="#">Programa de afiliados</a>
+            <a class="font-regular text-white" href="#">Anuncia tus productos</a>
+            <a class="font-regular text-white" href="#">Pubilca tu libro en Kindle</a>
+            <a class="font-regular text-white" href="#">> Ver más</a>
+          </div>
+    
+          <div class="flex w-1/4 flex-col ml-6">
+            <p class="text-white font-bold text-xl">Productos de Pago Amazon</p>
+            <a class="font-regular text-white" href="#">Compra con puntos</a>
+            <a class="font-regular text-white" href="#">Recarga tu Saldo</a>
+            <a class="font-regular text-white" href="#">Convertidor de Moneda de Amazon</a>
+    
+          </div>
+    
+          <div class="flex w-1/4 flex-col ml-6">
+            <p class="text-white font-bold text-xl">Podemos ayudarte</p>
+            <a class="font-regular text-white" href="#">Tu cuenta</a>
+            <a class="font-regular text-white" href="#">Tus pedidos</a>
+            <a class="font-regular text-white" href="#">Tarifas de Envío y Políticas</a>
+            <a class="font-regular text-white" href="#">Devoluciones y Reemplazos</a>
+            <a class="font-regular text-white" href="#">Admistrar dispositivos</a>
+            <a class="font-regular text-white" href="#">Amazon Assistant</a>
+            <a class="font-regular text-white" href="#">Ayuda</a>
+          </div>
+        </div>
+    
+        <div class="flex justify-center py-8">
+          <img src="./img/amazon.png" width="136px" alt="">
+        </div>
+    </section>
+
+</body>
+</html>

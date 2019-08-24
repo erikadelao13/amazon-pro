@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Amazon Lite</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/bdb7a5d626.js"></script>
+</head>
+<body class="bg-gray-200">
+  <!-- Header section -->
+  <section>
+    <div class="bg-header">
+      <header class="container m-auto"> 
+        <!-- First Row -->
+        <div class="flex items-center justify-between">
+          <div>
+            <img src="./img/amazon.png" width="226px" alt="">
+          </div>
+          <div class="flex flex-row items-center overflow-hidden rounded-lg h-full w-full max-w-2xl">
+            <select class="h-10 py-2 px-4 bg-white appearance-none" name="" id="">
+                <option value="">Todos</option>
+                <option value="">Otros</option>
+            </select>
+            <input class="h-10 w-full pl-4" type="text" placeholder="Search">
+            <a href="./detail.html"><button class="bg-button h-10 py-2 px-4 text-gray-600"><i class="fas fa-search"></i></button></a>
+          </div>
+          <div class="">
+            <p class="text-sm font-bold text-white">Servicio al Cliente 24/7. Más información</p>
+          </div>
+        </div>
+        <!-- Second Row -->
+        <div class="flex items-center justify-between py-4">
+          <div class="flex items-center px-10">
+            <i class="fas fa-map-marker-alt text-white text-3xl"></i>
+            <div class="pl-2">
+              <p class="font-regular text-white text-sm">Enviar a</>
+              <p class="font-bold text-white">El Salvador</p>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="flex items-center">
+                <select class="bg-transparent text-white font-bold appearance-none" name="" id="">
+                    <option value="">Departamentos</option>
+                    <option value="">Otros</option>
+                </select>
+                <i class="fas fa-chevron-down text-xs ml-1 text-white"></i>
+            </div>
+            <ul class="flex text-white font-regular">
+              <li class="px-2"><a href="#"> Ofertas del día </a></li>
+              <li class="px-2"><a href="#"> Tu amazon.com </a> </li>
+              <li class="px-2"><a href="#"> Tarjetas de Regalo</a></li>
+              <li class="px-2"><a href="#"> Ayuda</a></li>
+              <li class="px-2"><a href="#"> Listas</a></li>
+              <li class="px-2"><a href="#"> Vender</a></li>
+            </ul>
+          </div>
+          <div class="flex items-center">
+            <div class="">
+              <p class="text-white text-sm pl-1">Hola, Identífícate</p>
+              <a href="./login.html" class="">
+                <select class="bg-transparent text-white font-bold appearance-none" name="" id="">
+                    <option value="" class="border-none">Cuenta y Listas</option>
+                </select>
+                <i class="fas fa-chevron-down text-xs ml-1 text-white"></i>
+              </a>
+            </div>
+            <p class="text-white font-bold px-2">Pedidos</p>
+            <div class="flex p-2 items-center">
+              <i class="fas fa-shopping-cart text-white pr-2"></i>
+              <p class="text-white font-bold">Carrito</p>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+  </section>
+
+  <!-- top products -->
+  <section class="bg-top-products bg-cover pb-20">
+    <div class="container m-auto">
+    <div class="pt-48 flex">
+      <div class="card-top-product p-6 m-2 bg-white w-1/4">
+        <p class="text-xl font-bold pb-6">¿Necesitas ayuda?</p>
+        <div class="h-standard-image mb-4">
+          <img src="./img/top-1.png" alt="">
+        </div>
+        <p class="text-sm text-gray-800 pb-2">Más infromación sobre cómo comprar</p>
+        <a href="#" class="color-link font-bold">Más infromación </a>
+      </div>
+      <div class="card-top-product p-6 m-2 bg-white w-1/4">
+        <p class="text-xl font-bold pb-6">Ofertas y Promociones</p>
+        <div class="flex justify-center mb-4">
+          <img src="./img/top-2.png" alt="" class="">
+        </div>
+        <p class="text-sm text-gray-800 pb-2">Ofertas en cada departamento</p>
+        <a href="#" class="color-link font-bold">Compra ahora</a>
+      </div>
+      <div class="card-top-product p-6 m-2 bg-white w-1/4">
+        <p class="text-xl font-bold pb-6">Zapatos de Vestir par..</p>
+        <div class="flex justify-center mb-4">
+          <img src="./img/top-3.png" alt="" class="">
+        </div>
+        <p class="text-sm text-gray-800 pb-2">Encuentra tus marcas favoritas</p>
+        <a href="#" class="color-link font-bold">Compra ahora</a>
+      </div>
+      <div class="card-top-product p-6 m-2 bg-white w-1/4">
+        <p class="text-xl font-bold">Inicia Sesión para vivir tu mejor experiencia</p>
+        <button class="bg-button mt-6 rounded w-full py-2 text-sm font-medium">Iniciar sesión de forma segura</button>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- /top products -->
+
+  <!-- best sellers -->
+  <section class="bg-white container m-auto p-6 mb-10">
+    <div class="flex items-center">
+      <p class="font-regular text-xl">Lo Más Vendidos en Hogar y Cocina</p>
+      <a href="#" class="color-link pl-4 font-bold">Ver más</a>
+    </div>
+    <div class="flex pt-4">
+      <a href="./detail_product.html"><img class="px-2" src="./img/bs-1.jpg" alt=""></a>
+      <a href="./detail_product.html"><img class="px-2" src="./img/bs-2.png" alt=""></a>
+      <a href="./detail_product.html"><img class="px-2" src="./img/bs-3.png" alt=""></a>
+      <a href="./detail_product.html"><img class="px-2" src="./img/bs-4.png" alt=""></a>
+      <a href="./detail_product.html"><img class="px-2" src="./img/bs-5.png" alt=""></a>
+      <a href="./detail_product.html"><img class="px-2" src="./img/bs-6.png" alt=""></a>
+    </div>
+  </section>
+  <!-- /best sellers -->
+
+  <!-- deports -->
+  <section class="bg-white container m-auto p-6 mb-10">
+    <div class="flex items-center">
+      <p class="font-regular text-xl">Lo Más Vendidos en Deportes y Activades al Aire Libre</p>
+      <a href="#" class="color-link pl-4 font-bold">Ver más</a>
+    </div>
+    <div class="flex pt-4">
+      <img class="px-2" src="./img/dp-1.jpg" alt="">
+      <img class="px-2" src="./img/dp-2.jpg" alt="">
+      <img class="px-2" src="./img/dp-3.jpg" alt="">
+      <img class="px-2" src="./img/dp-4.jpg" alt="">
+      <img class="px-2" src="./img/dp-5.jpg" alt="">
+      <img class="px-2" src="./img/dp-6.jpg" alt="">
+    </div>
+  </section>
+  <!-- /deports -->
+
+  <!-- footer -->
+  <section class="bg-footer">
+    <div class="bg-go-top flex justify-center">
+      <a href="" class="py-4 text-white text-center font-medium">Inicio de página</a>
+    </div>
+
+    <div class="flex py-10 container m-auto pl-6">
+      <div class="flex w-1/4 flex-col ml-6">
+        <p class="text-white font-bold text-xl">Conócenos</p>
+        <a class="font-regular text-white" href="#">Trabaja en Amazon</a>
+        <a class="font-regular text-white" href="#">Blog</a>
+        <a class="font-regular text-white" href="#">Acerca de Amazon</a>
+        <a class="font-regular text-white" href="#">Relaciones con los inversionistas</a>
+        <a class="font-regular text-white" href="#">Dispositivos Amazon</a>
+        <a class="font-regular text-white" href="#">Visita un centro logístico de Amazon</a>
+      </div>
+
+      <div class="flex w-1/4 flex-col ml-6">
+        <p class="text-white font-bold text-xl">Gana dinero con nosotros</p>
+        <a class="font-regular text-white" href="#">Vende en Amazon</a>
+        <a class="font-regular text-white" href="#">Vende tus servicios en Amazon</a>
+        <a class="font-regular text-white" href="#">Vende en Amaon Business</a>
+        <a class="font-regular text-white" href="#">Vende tus Apps en Amazon</a>
+        <a class="font-regular text-white" href="#">Programa de afiliados</a>
+        <a class="font-regular text-white" href="#">Anuncia tus productos</a>
+        <a class="font-regular text-white" href="#">Pubilca tu libro en Kindle</a>
+        <a class="font-regular text-white" href="#">> Ver más</a>
+      </div>
+
+      <div class="flex w-1/4 flex-col ml-6">
+        <p class="text-white font-bold text-xl">Productos de Pago Amazon</p>
+        <a class="font-regular text-white" href="#">Compra con puntos</a>
+        <a class="font-regular text-white" href="#">Recarga tu Saldo</a>
+        <a class="font-regular text-white" href="#">Convertidor de Moneda de Amazon</a>
+
+      </div>
+
+      <div class="flex w-1/4 flex-col ml-6">
+        <p class="text-white font-bold text-xl">Podemos ayudarte</p>
+        <a class="font-regular text-white" href="#">Tu cuenta</a>
+        <a class="font-regular text-white" href="#">Tus pedidos</a>
+        <a class="font-regular text-white" href="#">Tarifas de Envío y Políticas</a>
+        <a class="font-regular text-white" href="#">Devoluciones y Reemplazos</a>
+        <a class="font-regular text-white" href="#">Admistrar dispositivos</a>
+        <a class="font-regular text-white" href="#">Amazon Assistant</a>
+        <a class="font-regular text-white" href="#">Ayuda</a>
+      </div>
+    </div>
+
+    <div class="flex justify-center py-8">
+      <img src="./img/amazon.png" width="136px" alt="">
+    </div>
+  </section>
+</body>
+</html>

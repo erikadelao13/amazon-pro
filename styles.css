@@ -1,0 +1,68 @@
+.bg {
+  background-color: #E5E5E5;
+}
+
+.bg-header {
+  background: #232F3D;
+}
+
+.bg-footer {
+  background: #232F3D;
+}
+
+.bg-go-top {
+  background: #374759;
+}
+
+.bg-button {
+  background: #FCBC70;
+}
+
+.bg-top-products {
+  background-image: url("./img/bg-top-products.png");
+}
+
+.card-top-product {
+  height: 380px;
+}
+
+.color-link {
+  color: #0066C0;
+}
+
+.h-standard-image {
+  height: 215px;
+}
+
+.text-line {
+  display: inline-block;
+  position: relative;
+}
+.text-line::after, .text-line::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background-color: currentColor;
+  top: 0.8em;
+}
+.text-line::after {
+  right: -110px;
+}
+.text-line::before {
+  left: -110px;
+}
+
+.bg-button-yellow {
+  background: linear-gradient(360deg, #EFC25C 9.31%, #F8E7C1 100%);
+}
+
+.bg-button-orange {
+  background: linear-gradient(360deg, #FF9611 9.31%, #FEB65B 100%);
+}
+
+.bg-select {
+  background: linear-gradient(360deg, #ECECEC 9.31%, #F9F9F9 100%);
+}
+
+/*# sourceMappingURL=styles.css.map */
